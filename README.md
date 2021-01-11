@@ -8,3 +8,7 @@
 * Follow the instructions in the respective notebooks
 * 10 sample images are provided to test the code and model predictions
 
+## Update
+Implemented a vectorized one-hot maker into the training itself. This negates the need to save one-hot files to disk.
+This method reads files at 1/3rd the speed as loading the array from disk. However, this should speed up with lower resolution images
+
